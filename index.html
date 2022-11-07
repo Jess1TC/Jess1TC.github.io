@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica_Taqueria_El_Jefe</title>
+</head>
+<body>
+    <header>
+        <h1>TACOS EL JEFE</h1>
+        <br>
+    </header>
+    <section>
+        <img src=".\TAQUERIA_1.png" alt="TAQUERIA EL JEFE" width="500px" height="350xp"/>
+    </section>
+    <section>
+        <h2>MENÚ</h2>
+        <h3> Tacos Grandes</h3>
+            <ul>
+                <li>Bisteck..........................$45.00</li>
+                <li>Longaniza........................$45.00</li>
+                <li>Pastor...........................$45.00</li>
+                <li>Chuleta..........................$45.00</li>
+                <li>Combinado........................$45.00</li>
+            </ul>
+        <h3> Tacos Pequeños</h3>
+            <ul>
+                <li>Bisteck..........................$25.00</li>
+                <li>Longaniza........................$25.00</li>
+                <li>Pastor...........................$25.00</li>
+                <li>Chuleta..........................$25.00</li>
+                <li>Combinado........................$25.00</li>
+            </ul>
+        <h3> Especiales</h3>
+            <dl>
+                <dt><b> El Jefazo........................$60.00</b></dt>
+                <dd>-Tortilla de maíz, arrachera, queso y papas</dd>
+                <dt><b> Beagle...........................$60.00</b></dt>
+                <dd>-Tortilla de maíz, combinado, queso y papas</dd>
+                <dt><b> Labrador.........................$60.00</b></dt>
+                <dd>-Tortilla de arina, bisteck y queso</dd>
+                <dt><b> Whippet..........................$60.00</b></dt>
+                <dd>-Tortilla de arina, pastor y queso</dd>
+                <dt><b> San Bernardo.....................$65.00</b></dt>
+                <dd>-Tortilla de maíz, combinado, arrachera, queso y papas</dd>
+            </dl>
+        <h3>Bebidas</h3>
+            <ul>
+                <li>Coca Cola 600ml...................$25.00</li>
+                <li>Peñafiel 600ml....................$25.00</li>
+                <li>Mundet 600ml......................$25.00</li>
+                <li>Boing 450ml.......................$18.00</li>
+                <li>Agua mineral 600ml................$20.00</li>
+                <li>Fuzetea 600ml.....................$25.00</li>
+            </ul>
+    </section>
+    <hr>
+    <section>
+        <h2>UBICACIÓN</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Horario</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/8XFP81TKQuCwFioWA">Av. 20 de Noviembre 36, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06060 Ciudad de México, CDMX</a></td>
+                <td>Lunes a Domingo - 3pm a 2am</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/ZoFzPbonjRVek1bq8">Colector 13 936, Lindavista Sur, Gustavo A. Madero, 07300 Ciudad de México, CDMX</a></td>
+                <td>Martes a Domingo - 1pm a 12am</td>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/ZJ1fkak8VYWTXswXA">Malintzin 79, Del Carmen, Coyoacán, 04100 Ciudad de México, CDMX</a></td>
+                <td>Lunes a Domingo - 1pm a 1am</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h2>PEDIDOS</h2>
+        <h3><b>Haz tu pedido aquí</b></h3>
+
+        <form action="">
+            <p>¿De que taqueria quiere ordenar?</p>
+            <select>
+                <option value="Norte">Norte</option>
+                <option value="Centro">Centro</option>
+                <option value="Sur">Sur</option>
+            </select>
+
+            <p>¿De que quieres?</p>
+            <input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+            <label for="Bisteck"> Bisteck</label>
+            <select>
+                <option value="ninguno">¿De que Tamaño?</option>
+                <option value="TacoPequeño">Taco Pequeño</option>
+                <option value="TacoGrande">Taco Grande</option>
+            </select>
+            <input type="number" id="NumberBck" name="NumberBck" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Longaniza" name="Longaniza" value="Longaniza">
+            <label for="Longaniza">Longaniza</label>
+            <select>
+                <option value="ninguno">¿De que Tamaño?</option>
+                <option value="TacoPequeño">Taco Pequeño</option>
+                <option value="TacoGrande">Taco Grande</option>
+            </select>>
+            <input type="number" id="NumberLza" name="NumberLza" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+            <label for="Pastor">Pastor</label>
+            <select>
+                <option value="ninguno">¿De que Tamaño?</option>
+                <option value="TacoPequeño">Taco Pequeño</option>
+                <option value="TacoGrande">Taco Grande</option>
+            </select>
+            <input type="number" id="NumberPtor" name="NumberPtor" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Chuleta" name="Chuleta" value="Chuleta">
+            <label for="Chuleta">Chuleta</label>
+            <select>
+                <option value="ninguno">¿De que Tamaño?</option>
+                <option value="TacoPequeño">Taco Pequeño</option>
+                <option value="TacoGrande">Taco Grande</option>
+            </select>
+            <input type="number" id="NumberCta" name="NumberCta" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Combinado" name="Combinado" value="Combinado">
+            <label for="Combinado">Combinado</label>
+            <select>
+                <option value="ninguno">¿De que Tamaño?</option>
+                <option value="TacoPequeño">Taco Pequeño</option>
+                <option value="TacoGrande">Taco Grande</option>
+            </select>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <p>¿O alguno de nuestros Especiales?</p>
+            <input type="checkbox" id="eljefazo" name="eljefazo" value="eljefazo">
+            <label for="eljefazo">El jefazo</label>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Beagle" name="Beagle" value="Beagle">
+            <label for="Beagle">Beagle</label>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Labrador" name="Labrador" value="Labrador">
+            <label for="Labrador">Labrador</label>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Whippet" name="Whippet" value="Whippet">
+            <label for="Whippet">Whippet</label>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="SanBernardo" name="SanBernardo" value="SanBernardo">
+            <label for="SanBernardo">SanBernardo</label>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <p>¿Alguna Bebida?</p>
+            <input type="checkbox" id="CocaCola" name="CocaCola" value="CocaCola">
+            <label for="CocaCola">Coca Cola 600ml</label>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Peñafiel" name="Peñafiel" value="Peñafiel">
+            <label for="Peñafiel">Peñafiel 600ml</label>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Mundet" name="Mundet" value="Mundet">
+            <label for="Mundet">Mundet 600ml</label>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Boing" name="Boing" value="Boing">
+            <label for="Boing">Boing 450ml</label>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Aguam" name="Aguam" value="Aguam">
+            <label for="Aguam">Agua mineral 600ml</label>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Fuzetea" name="Fuzetea" value="Fuzetea">
+            <label for="Aguam">Fuzetea 600ml</label>
+            <input type="number" id="NumberCdo" name="NumberCdo" placeholder="¿Cuántos?">
+            <br>
+            <p>Especificaciones para su orden</p>
+            <input type="text" id="Comentarios" name="Comentarios" placeholder="Sin cebolla, Salsa roja...">
+            
+             <br><br>
+
+            <label for="Nombre">Nombre</label>
+            <br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="¿A quien va dirigido?">
+
+            <br><br>
+
+            <label for="Email">Correo Electronico</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="email@algo.com">
+
+            <br><br>
+
+            <label for="Telefono">Telefono</label>
+            <br>
+            <input type="text" id="Telefono" name="Telefono" placeholder="¿Cual es tu telefono?">
+
+            <br><br>
+
+            <label for="Direccion">Direccion</label>
+            <br>
+            <input type="text" id="Direccion" name="Direccion" placeholder="¿A que domicilio?">
+
+            <br><br>
+
+            <button type="submit">Enviar Pedido</button>
+
+            <br><br>
+        </form>
+    </section>
+
+
+    
+</body>
+</html>
